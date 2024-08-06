@@ -7,7 +7,7 @@ export default function Home() {
         <img src="/2.png" alt=""  className="w-8"/>
         <h1 className="text-3xl">Maverick Blog</h1>
       </div>
-      <div className="pr-5 justify-between flex">
+      <div className="pr-5 gap-4 flex ">
       <a href="#">About Us</a>
       <a href="#">Blogs</a>
       <a href="#">Pricing</a>
