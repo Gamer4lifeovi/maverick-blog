@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <nav>
-      <div className="">
-        <h1>Maverick Blog</h1>
-        <img src="/2.png" alt="" />
+    <nav className="flex w-full flex-row items-center justify-between pt-5 pl-2">
+      <div className="flex ">
+        <h1 className="text-3xl">Maverick Blog</h1>
+        <img src="/2.png" alt=""  className="w-8"/>
       </div>
-      <div>
+      <div className="pr-5 justify-between">
       <a href="#">About Us</a>
       <a href="#">Blogs</a>
       <a href="#">Pricing</a>
