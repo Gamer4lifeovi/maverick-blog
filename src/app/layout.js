@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Create Next App",
-  description: "Maverick Blog",
+  title: "Maverivk bog",
+  description: "An amazing blogs of a peop,e",
 };
 
 export default function RootLayout({ children }) {
@@ -15,3 +15,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+

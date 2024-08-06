@@ -5,6 +5,7 @@ export default function Home() {
     <nav>
       <div className="">
         <h1>Maverick Blog</h1>
+        <img src="/2.png" alt="" />
       </div>
       <div>
       <a href="#">About Us</a>
