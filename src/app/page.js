@@ -18,7 +18,9 @@ export default function Home() {
     </nav>
 
     <section className="">
-        
+        <div className="bg-[url(/mountain.jpg)]"
+              // 
+        ></div>
     </section>
     </>
   )
