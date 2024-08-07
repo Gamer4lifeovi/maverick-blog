@@ -18,7 +18,7 @@ export default function Home() {
     </nav>
 
     <section className="">
-        <div className="bg-[url(/mountain.jpg)]"
+        <div className="h-screen w-full bg-cover bg-no-repeat bg-[url(/mountain.jpg)]"
               // 
         ></div>
     </section>
