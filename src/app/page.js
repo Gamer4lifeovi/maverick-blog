@@ -12,7 +12,7 @@ export default function Home() {
           <a href="#" className="underline text-[#3e9ddf] font-bold italic">Home</a>
           <a href="#">About Us</a>
           <a href="#">Blogs</a>
-          <a href="#">Pricing</a>
+          <a href="#">Pricing</a> 
           <a href="#">Sign-in</a>
           <a href="#">Register</a>
         </div>
