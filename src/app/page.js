@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Script from "next/script";
+
+
 
 export default function Home() {
   return (
@@ -11,16 +14,16 @@ export default function Home() {
         <div className="pr-5 gap-4 flex">
           <a href="#" className="underline text-[#3e9ddf] font-bold italic">Home</a>
           <a href="#" className=" ">About Us</a>
-          <a href="#">Blogs</a>
-          <a href="#">Pricing</a> 
-          <a href="#">Sign-in</a>
-          <a href="#">Register</a>
+          <a href="#">Blogs</a> 
+          <a href="#">Pricing</a>  
+          <a href="#">Sign-in</a> 
+          <a href="#">Register</a> 
         </div>
       </nav>
 
       <section className="">
         <div className="h-screen w-full bg-cover bg-no-repeat bg-[url(/mountain.jpg)]">
-          <a href=""><h1 className="font-black pt-48 text-center justify-center align-middle cursor-pointer">Blogs</h1></a>
+          <a href="#"><h1 className="font-black pt-48 text-center justify-center align-middle cursor-pointer">Blogs</h1></a>
           <h1 className="text-center justify-center align-middle">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</h1>
           <div className="text-center justify-center align-middle gap-2 flex">
             <a href="#"><span>Authors</span></a>
@@ -32,6 +35,8 @@ export default function Home() {
           <h1 className="text-center justify-center align-middle">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</h1>
         </div>
       </section>
+
+      
     </>
   )
 }
