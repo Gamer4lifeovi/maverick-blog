@@ -4,11 +4,11 @@ import Script from "next/script";
 export default function Home() {
   return (
     <>
-      <section className="bg-[#f7f4ed]">
+      <section className="bg-[#f7f4ed] h-screen">
         <header className="flex">
-          <nav className="flex">
+          <nav className="flex w-full justify-between px-20">
               <div>
-                <h1 className="text-center capitalize md:uppercase">Mavrick</h1>
+                <h1 className="text-center capitalize md:uppercase">Mavrick Blogs</h1>
               </div>
 
               <div>
@@ -19,7 +19,7 @@ export default function Home() {
                 <a href="#">Register</a>
               </div>
           </nav>
-        </header>
+        </header> 
       </section>
     </>
   )
